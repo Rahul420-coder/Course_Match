@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="Register.css">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  </head>
+  <body>
+    <form class="container1" action="" method="GET">
+      
+      <h1>Enter your personal details: </h1>
+                
+                <input type="text" name="FullName" required autofocus placeholder="Enter name">
+                <input type="text" name="Enrollment_No." id="username" required placeholder="Enter Enrollment_Number">
+                <input type="email" name="Email" id="Email" required placeholder="Enter E-Mail ID">
+                <input type="tel" name="Number" id="Phone" required placeholder="Enter Phone Number">
+                <input type="password" name="password" id="password" min="6" max="16" required placeholder="Choose Password" title="Please enter valid password">
+                <input type="date" name="birthday">
+                <select name="Gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Consider not to say">Other</option>
+                </select>
+
+
+      <input type="submit" value="submit">
+    </form>
+  </body>
+</html>
